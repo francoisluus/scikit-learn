@@ -16,8 +16,10 @@ from ..base import BaseEstimator
 from ..base import TransformerMixin
 # from ..externals.six.moves import xrange  # no module named six.moves
 from six.moves.builtins import xrange
-from ..utils import check_array
-from ..utils import check_random_state
+#from ..utils import check_array
+from ..utils.validation import check_array
+#from ..utils import check_random_state
+from ..utils.validation import check_random_state
 from ..utils import gen_even_slices
 from ..utils import issparse
 from ..utils.extmath import safe_sparse_dot
